@@ -3,6 +3,8 @@ package my.food;
 import java.util.ArrayList;
 import java.util.List;
 
+import country.Country;
+
 public class ChaShaoBao implements Food {
 
 
@@ -21,7 +23,7 @@ public class ChaShaoBao implements Food {
     @Override
     public String getCountryOrigin() {
         // TODO Auto-generated method stub
-        return "hello";
+        return Country.FRANCE.getName();
     }
 
     @Override
