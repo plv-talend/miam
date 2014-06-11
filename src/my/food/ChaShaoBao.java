@@ -18,10 +18,6 @@ public class ChaShaoBao implements Food {
 		return ingredients;
 	}
 
-  
-
-
-
     @Override
     public String getCountryOrigin() {
         // TODO Auto-generated method stub
