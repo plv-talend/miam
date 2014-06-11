@@ -20,6 +20,7 @@ public class Stomach {
 		// foodsInside.add(new Pizza()); // I like Pizza
 		foodsInside.add(new DanDanMian());// I like DanDanMian
 		foodsInside.add(new DanDanMian());// I like DanDanMian
+		foodsInside.add(new DanDanMian());// I like DanDanMian
 		// foodsInside.add(new Pizza()); // I like Pizza
 		// foodsInside.add(new Pizza()); // I like Pizza
 	}
