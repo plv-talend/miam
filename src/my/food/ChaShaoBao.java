@@ -5,17 +5,22 @@ import java.util.List;
 
 public class ChaShaoBao implements Food {
 
+
     List<String> ingredients = new ArrayList<String>();
+	
+	/* Exercise 1: implement Constructor */
+	public ChaShaoBao(){
+		System.out.println();
+	}
+	
+	@Override
+	public List<String> getIngredients() {
+		return ingredients;
+	}
 
-    /* Exercise 1: implement Constructor */
-    public ChaShaoBao() {
+  
 
-    }
 
-    @Override
-    public List<String> getIngredients() {
-        return ingredients;
-    }
 
     @Override
     public String getCountryOrigin() {
