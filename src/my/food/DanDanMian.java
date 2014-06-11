@@ -29,8 +29,7 @@ public class DanDanMian implements Food {
 
 	@Override
 	public String getCountryOrigin() {
-		// TODO Auto-generated method stub
-		return null;
+		return "China";
 	}
 
 	@Override
