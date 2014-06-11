@@ -10,7 +10,7 @@ public class ChaShaoBao implements Food {
 	
 	/* Exercise 1: implement Constructor */
 	public ChaShaoBao(){
-		System.out.println("hello word");
+		ingredients.add("chashaobao");
 	}
 	
 	@Override
