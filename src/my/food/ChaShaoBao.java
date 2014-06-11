@@ -27,7 +27,7 @@ public class ChaShaoBao implements Food {
     @Override
     public Integer getCalory() {
         // TODO Auto-generated method stub
-        return null;
+        return 99;
     }
 
 }
