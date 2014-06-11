@@ -18,5 +18,4 @@ public class LaMian implements Food {
 		return Country.CHINA.getName();
 	}
 
-
 }
