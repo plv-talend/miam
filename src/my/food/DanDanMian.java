@@ -13,7 +13,6 @@ public class DanDanMian implements Food {
 	public DanDanMian() {
 		ingredients.add("noodle");
 		ingredients.add("spices");
-		ingredients.add("peanuts");
 	}
 
 	public DanDanMian(List<String> ingredients) {
