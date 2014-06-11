@@ -8,7 +8,9 @@ public enum Country {
 
 	CHINA("China"),
 
-	SPAIN("Spain");
+	SPAIN("Spain"),
+	
+	USA("USA");
 
 	private String name;
 
