@@ -3,28 +3,30 @@ package my.food;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class ChaShaoBao implements Food {
 
-	List<String> ingredients = new ArrayList<String>();
-	
-	/* Exercise 1: implement Constructor */
-	
-	@Override
-	public List<String> getIngredients() {
-		return ingredients;
-	}
+    List<String> ingredients = new ArrayList<String>();
 
-	@Override
-	public String getCountryOrigin() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    /* Exercise 1: implement Constructor */
+    public ChaShaoBao() {
 
-	@Override
-	public Integer getCalory() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    }
+
+    @Override
+    public List<String> getIngredients() {
+        return ingredients;
+    }
+
+    @Override
+    public String getCountryOrigin() {
+        // TODO Auto-generated method stub
+        return "hello";
+    }
+
+    @Override
+    public Integer getCalory() {
+        // TODO Auto-generated method stub
+        return null;
+    }
 
 }
