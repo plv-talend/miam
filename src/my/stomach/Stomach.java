@@ -33,6 +33,10 @@ public class Stomach {
 			/* Display the name of the food object */
 			sb.append(food.getClass().getSimpleName() + ":");
 			sb.append("\n");
+			
+			/* Display the name of the Country object */
+			sb.append(food.getCountryOrigin() + ":");
+			sb.append("\n");
 
 			/* Display the list of ingredients */
 			sb.append(food.getIngredients());
