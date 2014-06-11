@@ -18,7 +18,7 @@ public class Stomach {
 		foodsInside.add(new ChaShaoBao());
 		// foodsInside.add(new Pizza()); // I like Pizza
 		// foodsInside.add(new Pizza()); // I like Pizza
-		foodsInside.add(new DanDanMian());// I like DanDanMian
+		foodsInside.add(new DanDanMian());// I like DanDanMian aa
 		// foodsInside.add(new Pizza()); // I like Pizza
 		// foodsInside.add(new Pizza()); // I like Pizza
 	}
@@ -33,7 +33,7 @@ public class Stomach {
 			/* Display the name of the food object */
 			sb.append(food.getClass().getSimpleName() + ":");
 			sb.append("\n");
-			
+
 			/* Display the name of the Country object */
 			sb.append(food.getCountryOrigin() + ":");
 			sb.append("\n");
