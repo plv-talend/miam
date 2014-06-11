@@ -19,7 +19,6 @@ public class Stomach {
 		foodsInside.add(new Pizza()); // I like Pizza
 		foodsInside.add(new Pizza()); // I like Pizza
 		foodsInside.add(new DanDanMian());
-		foodsInside.add(new DanDanMian());
 		foodsInside.add(new Pizza()); // I like Pizza
 		foodsInside.add(new Pizza()); // I like Pizza
 	}
