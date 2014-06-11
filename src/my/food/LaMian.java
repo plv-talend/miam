@@ -2,6 +2,8 @@ package my.food;
 
 import java.util.List;
 
+import country.Country;
+
 public class LaMian implements Food {
 
 	@Override
@@ -13,7 +15,7 @@ public class LaMian implements Food {
 	@Override
 	public String getCountryOrigin() {
 		// TODO Auto-generated method stub
-		return null;
+		return Country.CHINA.getName();
 	}
 
 	@Override
