@@ -14,7 +14,6 @@ public class DanDanMian implements Food {
 		ingredients.add("noodle");
 		ingredients.add("spices");
 		ingredients.add("peanuts");
-		ingredients.add("peanuts");
 	}
 
 	public DanDanMian(List<String> ingredients) {
