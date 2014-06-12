@@ -18,10 +18,4 @@ public class LaMian implements Food {
 		return Country.CHINA.getName();
 	}
 
-	@Override
-	public Integer getCalory() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

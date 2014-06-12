@@ -14,6 +14,8 @@ public class ChaShaoBao implements Food {
 		ingredients.add("chashaobao1");
 		ingredients.add("chashaobao2");
 		// ddddddddddddddddddddd
+		ingredients.add("chashaobao");
+		ingredients.add("chashaobao3");
 	}
 
 	@Override
